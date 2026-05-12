@@ -1,0 +1,16 @@
+{
+  "songs": [
+    {
+      "title": "Sweden",
+      "artist": "C418",
+      "cover": "https://i.pinimg.com/736x/9b/77/0a/9b770ae597b5c9066305bf822335c07a.jpg",
+      "audio": "sweden by c418 except it's kind of sad and very nostalgic.mp3"
+    },
+    {
+      "title": "F1",
+      "artist": "F1",
+      "cover": "https://logowik.com/content/uploads/images/f1-formula-18381.jpg",
+      "audio": "Lose My Mind (feat. Doja Cat) (From F1® The Movie).mp3"
+    }
+  ]
+}

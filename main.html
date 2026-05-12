@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <!-- Dòng lệnh kết nối file CSS ở đây -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Màn hình chào -->
+    <div id="welcome-screen">
+    <div class="welcome-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Nhấn vào để khám phá không gian của Danh</p>
+        <button id="enter-btn">Bắt đầu</button>
+    </div>
+    </div>
+    <div class="box">
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <section>
+            <img src="image.png" alt="Profile Picture" width="150">
+            <article>
+                <h2>Lê Danh</h2>
+                <p>CC</p>
+            </article>
+        </section>
+        <footer>
+            <p>Contact: lenguyenthanhdanh.0707@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/lenguyen.thanhdanh07"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/danh-l%C3%AA-029999318/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/fuanz0_o/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<div class="music-player">
+    <!-- Đĩa nhạc xoay - Lưu ý ID 'cover' và 'disk' -->
+    <div class="disk" id="disk">
+        <img src="" id="cover" alt="Music Cover">
+    </div>
+
+    <!-- Cụm nút điều khiển -->
+    <div class="controls">
+        <button id="prevBtn" class="ctrl-btn">
+            <i class="fa-solid fa-backward"></i>
+        </button>
+        
+        <button id="playBtn" class="play-btn">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        
+        <button id="nextBtn" class="ctrl-btn">
+            <i class="fa-solid fa-forward"></i>
+        </button>
+    </div>
+
+    <!-- Thẻ Audio để xử lý nhạc -->
+    <audio id="myAudio"></audio>
+</div>
+
+<!-- Đừng quên kết nối file JS ở cuối body -->
+<script src="index.js"></script>
+</html>
